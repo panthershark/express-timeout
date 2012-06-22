@@ -1,6 +1,6 @@
 {
   "name": "connect-request-time",
-   "version": "0.1",
+   "version": "0.1.0",
    "main": "index",
    "description": "Sets the timeout for sockets in connect or express.",
    "keywords": [
@@ -27,12 +27,14 @@
     "node": ">=0.6.0"
   },
   "scripts": {
-    "test": "node /tests/lookup.js"
+    "test": "node /tests/express.js"
   },
   "dependencies": {
     "underscore": "*"
     },
-  "devDependencies": {},
+  "devDependencies": {
+  	"express": "*"
+  	},
   "optionalDependencies": {},
   "homepage": "http://vastdevblog.vast.com/"
 }
