@@ -1,0 +1,39 @@
+{
+  "name": "connect-request-time",
+   "version": "0.1",
+   "main": "index",
+   "description": "Sets the timeout for sockets in connect or express.",
+   "keywords": [
+       "express",
+       "connect",
+       "timeout",
+       "sockets"
+   ],
+   "author": {
+       "name": "Tommy Messbauer",
+       "email": "tom.messbauer@gmail.com",
+       "web": "http://www.vast.com",
+       "twitter": "tommydudebreaux"
+   }, 
+   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tommydudebreaux/connect-request-time.git"
+  },
+  "directories": {
+    "tests": "tests"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "test": "node /tests/lookup.js"
+  },
+  "dependencies": {
+    "underscore": "*"
+    },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "http://vastdevblog.vast.com/"
+}
+
