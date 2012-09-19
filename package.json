@@ -1,5 +1,5 @@
 {
-  "name": "connect-request-time",
+  "name": "express-timeout",
    "version": "0.1.0",
    "main": "index",
    "description": "Sets the timeout for sockets in connect or express.",
