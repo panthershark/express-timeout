@@ -1,4 +1,4 @@
-var _ = require('underscore');
+var _ = require('lodash');
 
 /**
 * Takes the req and set the socket timeout and handles the timeout event.  If options.callback exists, then 
@@ -31,11 +31,11 @@ module.exports = function requestTimeout(options) {
 	    sock.once('timeout', function() {
 
 	        if (options.callback) {
-	        	options.callback(null, { req: req, res: res });
+	        	options.callback('Socket timeout due to inactivity', { req: req, res: res });
 	        }
 	        
 	        if (options.dahmer || sock.bytesWritten === 0) {
-	        	process.nextTick(sock.destroy);
+	        	process.nextTick(_.bind(sock.destroy, sock));
 	        }
 	    });
 

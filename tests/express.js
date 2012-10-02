@@ -2,7 +2,7 @@
 var express = require('express'),
 	http = require('http'),
 	url = require('url'),
-	_ = require('underscore'),
+	_ = require('lodash'),
 	requestTimeout = require('../index.js');
 
 var port = 3000,

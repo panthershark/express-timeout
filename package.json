@@ -1,24 +1,23 @@
 {
   "name": "express-timeout",
-   "version": "0.1.0",
-   "main": "index",
-   "description": "Sets the timeout for sockets in connect or express.",
-   "keywords": [
-       "express",
-       "connect",
-       "timeout",
-       "sockets"
-   ],
-   "author": {
-       "name": "Tommy Messbauer",
-       "email": "tom.messbauer@gmail.com",
-       "web": "http://www.vast.com",
-       "twitter": "tommydudebreaux"
-   }, 
-   "license": "MIT",
+  "version": "0.2.0",
+  "main": "index",
+  "description": "Sets the timeout for sockets in connect or express.",
+  "keywords": [
+    "express",
+    "connect",
+    "timeout",
+    "sockets",
+    "node"
+  ],
+  "author": {
+    "name": "Tommy Messbauer",
+    "email": "totally.bro@gmail.com"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tommydudebreaux/connect-request-time.git"
+    "url": "git@github.com:tommydudebreaux/express-timeout.git"
   },
   "directories": {
     "tests": "tests"
@@ -27,15 +26,14 @@
     "node": ">=0.6.0"
   },
   "scripts": {
-    "test": "node /tests/express.js"
+    "test": "node tests/express.js"
   },
   "dependencies": {
-    "underscore": "*"
-    },
+    "lodash": "*"
+  },
   "devDependencies": {
-  	"express": "*"
-  	},
+    "express": "*"
+  },
   "optionalDependencies": {},
   "homepage": "http://vastdevblog.vast.com/"
 }
-
