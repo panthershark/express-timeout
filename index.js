@@ -18,7 +18,7 @@ module.exports = function requestTimeout(options) {
 	options = _.extend(defaults, options);
 
 	return function(req, res, next) {
-	    var sock = req.socket;
+	    var sock = res.socket;
 
 	    if (options.timeout) {
 	    	sock.setTimeout(options.timeout);

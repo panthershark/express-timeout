@@ -1,6 +1,6 @@
 {
   "name": "express-timeout",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index",
   "description": "Sets the timeout for sockets in connect or express.",
   "keywords": [
